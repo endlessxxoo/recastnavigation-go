@@ -3,9 +3,7 @@ package benchmarks
 import (
 	"io/ioutil"
 
-	"github.com/fananchong/recastnavigation-go/Detour"
-	"github.com/fananchong/recastnavigation-go/DetourTileCache"
-	"github.com/fananchong/recastnavigation-go/tests"
+	"github.com/endlessxxoo/recastnavigation-go/tests"
 )
 
 const RAND_MAX_COUNT int = 20000000

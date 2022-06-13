@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"unsafe"
 
-	detour "github.com/fananchong/recastnavigation-go/Detour"
+	detour "github.com/endlessxxoo/recastnavigation-go/Detour"
 )
 
 var offsetX = [4]int32{-1, 0, 1, 0}
@@ -808,7 +808,7 @@ func buildMeshAdjacency(polys []uint16, npolys int32,
 	// http://www.terathon.com/code/edges.php
 
 	maxEdgeCount := npolys * MAX_VERTS_PER_POLY
-	if nverts*maxEdgeCount==0{
+	if nverts*maxEdgeCount == 0 {
 		return false
 	}
 	firstEdge := make([]uint16, nverts*maxEdgeCount)

@@ -6,8 +6,8 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/fananchong/recastnavigation-go/Detour"
-	"github.com/fananchong/recastnavigation-go/DetourTileCache"
+	"github.com/endlessxxoo/recastnavigation-go/Detour"
+	"github.com/endlessxxoo/recastnavigation-go/DetourTileCache"
 )
 
 var randValue []float32

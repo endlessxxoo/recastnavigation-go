@@ -3,8 +3,6 @@ package dtcache
 import (
 	"math"
 	"unsafe"
-
-	"github.com/fananchong/recastnavigation-go/Detour"
 )
 
 const (

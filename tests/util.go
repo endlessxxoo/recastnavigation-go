@@ -7,9 +7,9 @@ import (
 	"reflect"
 	"unsafe"
 
-	detour "github.com/fananchong/recastnavigation-go/Detour"
-	dtcache "github.com/fananchong/recastnavigation-go/DetourTileCache"
-	"github.com/fananchong/recastnavigation-go/fastlz"
+	detour "github.com/endlessxxoo/recastnavigation-go/Detour"
+	dtcache "github.com/endlessxxoo/recastnavigation-go/DetourTileCache"
+	"github.com/endlessxxoo/recastnavigation-go/fastlz"
 )
 
 func IsEquals(a, b float32) bool {

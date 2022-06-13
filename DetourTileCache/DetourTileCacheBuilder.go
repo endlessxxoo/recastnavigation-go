@@ -21,7 +21,7 @@ package dtcache
 import (
 	"unsafe"
 
-	"github.com/fananchong/recastnavigation-go/Detour"
+	detour "github.com/fananchong/recastnavigation-go/Detour"
 )
 
 const (

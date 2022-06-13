@@ -5,8 +5,8 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/fananchong/recastnavigation-go/Detour"
-	"github.com/fananchong/recastnavigation-go/tests"
+	"github.com/endlessxxoo/recastnavigation-go/Detour"
+	"github.com/endlessxxoo/recastnavigation-go/tests"
 )
 
 func Benchmark_TileCache_FindPath(t *testing.B) {

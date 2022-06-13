@@ -1,7 +1,7 @@
 package dtcache
 
 import (
-	detour "github.com/fananchong/recastnavigation-go/Detour"
+	detour "github.com/endlessxxoo/recastnavigation-go/Detour"
 )
 
 type DtObstacleRef uint32
